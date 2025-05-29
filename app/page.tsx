@@ -1,12 +1,12 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Playfair_Display } from "next/font/google"
 import { ChevronDown, Menu, X } from "lucide-react"
 import Image from "next/image"
 import confetti from "canvas-confetti"
 
-const playfair = Playfair_Display({ subsets: ["latin"] })
+// Remove the Playfair_Display import since we're now handling it in layout.tsx
+// const playfair = Playfair_Display({ subsets: ["latin"] })
 
 // Translation content
 const content = {
@@ -239,7 +239,7 @@ export default function Home() {
   }
 
   return (
-    <main className={`min-h-screen bg-[#f8f7f3] ${playfair.className} relative overflow-x-hidden`}>
+    <main className="min-h-screen bg-[#f8f7f3] relative overflow-x-hidden">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-white bg-opacity-95 shadow-sm z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
