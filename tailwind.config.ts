@@ -20,7 +20,7 @@ const config = {
     },
     extend: {
       fontFamily: {
-        buongiorno: ['"Buongiorno"', 'cursive'],
+        buongiorno: ['"Buongiorno"', 'var(--font-bellefair'],
         bellefair: ["var(--font-bellefair)"],
       },
       colors: {
