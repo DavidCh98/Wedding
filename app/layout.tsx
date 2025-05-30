@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={bellefair.variable}>
-      <body className={`${bellefair.className} font-buongiorno`}>{children}</body>
+      <body className={bellefair.className}>{children}</body>
     </html>
   )
 }
