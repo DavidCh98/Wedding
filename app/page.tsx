@@ -341,10 +341,10 @@ export default function Home() {
       <section className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-olive-50 via-white to-olive-100 text-center relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-5 pointer-events-none">
           <div className="absolute -left-10 top-10">
-            <FloralElement className="w-64 h-64 text-olive-700" />
+            <AngelsDecoration className="w-64 h-64 text-olive-700 opacity-30" />
           </div>
           <div className="absolute -right-10 bottom-10">
-            <FloralElement className="w-64 h-64 text-olive-700 transform rotate-180" />
+            <AngelsDecoration className="w-64 h-64 text-olive-700 opacity-30 transform rotate-180" />
           </div>
         </div>
 
@@ -501,18 +501,9 @@ export default function Home() {
   )
 }
 
-// Decorative SVG Components
-function FloralElement({ className = "" }) {
-  return (
-    <svg className={className} viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M100 0C120 40 160 60 200 60C160 80 140 120 140 160C100 140 60 160 20 200C40 160 20 120 0 100C40 80 60 40 60 0C80 40 120 60 100 0Z"
-        fill="currentColor"
-        fillOpacity="0.5"
-      />
-      <circle cx="100" cy="100" r="20" fill="currentColor" fillOpacity="0.5" />
-    </svg>
-  )
+// Replace the FloralElement function with this:
+function AngelsDecoration({ className = "" }) {
+  return <Image src="/angels.svg" alt="Angels decoration" width={200} height={200} className={className} />
 }
 
 function OliveDecoration({ className = "" }) {
