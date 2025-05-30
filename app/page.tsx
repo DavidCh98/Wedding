@@ -352,7 +352,7 @@ export default function Home() {
           <div className="mb-8">
             <OliveDecoration className="h-16 w-auto mx-auto text-olive-600 opacity-70" />
           </div>
-          <h1 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-6 tracking-wide">
+          <h1 className="font-buongiornocryt text-9xl md:text-9xl font-light text-olive-800 mb-6 tracking-wide">
             {t.hero.title}
           </h1>
           <p className="text-2xl md:text-3xl text-olive-600 mb-12 font-light">{t.hero.date}</p>

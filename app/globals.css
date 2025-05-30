@@ -8,6 +8,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Buongiorno-cyrt";
+  src: url("/buongiorno-rastellino-cyrt.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 :root {
   --background: 0 0% 100%;
