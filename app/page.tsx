@@ -352,7 +352,9 @@ export default function Home() {
           <div className="mb-8">
             <OliveDecoration className="h-16 w-auto mx-auto text-olive-600 opacity-70" />
           </div>
-          <h1 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-6 tracking-wide">{t.hero.title}</h1>
+          <h1 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-6 tracking-wide">
+            {t.hero.title}
+          </h1>
           <p className="text-2xl md:text-3xl text-olive-600 mb-12 font-light">{t.hero.date}</p>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl py-8 px-6 max-w-lg mx-auto border border-olive-100">
@@ -458,7 +460,9 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               {/* Accommodation */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
-                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">{t.guide.accommodation.title}</h3>
+                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">
+                  {t.guide.accommodation.title}
+                </h3>
                 <p className="text-olive-700 mb-4 leading-relaxed">{t.guide.accommodation.content}</p>
                 <p className="text-olive-600 font-medium">{t.guide.accommodation.contact}</p>
               </div>
@@ -501,17 +505,15 @@ export default function Home() {
   )
 }
 
-import Image from "next/image"
+// Define both decoration components
+function AngelsDecoration({ className = "" }) {
+  return <Image src="/angels.svg" alt="Angels decoration" width={200} height={200} className={className} />
+}
 
 function OliveDecoration({ className = "" }) {
   return (
     <div className={`relative w-[200px] h-[200px] ${className}`}>
-      <Image
-        src="/angels.svg"
-        alt="Angels decoration"
-        layout="fill"
-        objectFit="contain"
-      />
+      <Image src="/angels.svg" alt="Angels decoration" fill style={{ objectFit: "contain" }} />
     </div>
   )
 }
