@@ -14,7 +14,7 @@ const content = {
       guide: "Guide",
     },
     hero: {
-      title: "Deyvid & Zori",
+      title: "Deyvid & Zornitsa",
       date: "September 20, 2025",
       countdown: "Time until we say 'I do'",
       days: "Days",
@@ -84,7 +84,7 @@ const content = {
       guide: "Наръчник",
     },
     hero: {
-      title: "Дейвид & Зори",
+      title: "Дейвид & Зорница",
       date: "20 Септември, 2025",
       countdown: "Време до нашето 'Да'",
       days: "Дни",

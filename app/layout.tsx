@@ -12,13 +12,13 @@ const bellefair = Bellefair({
 })
 
 export const metadata: Metadata = {
-  title: "Deyvid & Zori - Wedding",
+  title: "Deyvid & Zornitsa - Wedding",
   description: "Join us for our special day - September 20, 2025",
   generator: "v0.dev",
-  keywords: ["wedding", "Deyvid", "Zori", "September 2025", "celebration"],
-  authors: [{ name: "Deyvid & Zori" }],
+  keywords: ["wedding", "Deyvid", "Zornitsa", "September 2025", "celebration"],
+  authors: [{ name: "Deyvid & Zornitsa" }],
   openGraph: {
-    title: "Deyvid & Zori - Wedding",
+    title: "Deyvid & Zornitsa - Wedding",
     description: "Join us for our special day - September 20, 2025",
     type: "website",
   },
