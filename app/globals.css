@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Buongiorno Rastellino";
-  src: url("/Buongiorno Rastellino.otf") format("opentype");
+  font-family: "Buongiorno";
+  src: url("/buongiorno-rastellino.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
