@@ -240,7 +240,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-lg z-50 border-b border-olive-100">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="font-buongiorno text-5xl text-olive-700 tracking-wide">D&Z</div>
+          <div className="font-buongiornocryt text-5xl text-olive-700 tracking-wide">D&Z</div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -386,7 +386,7 @@ export default function Home() {
         <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-full h-64 bg-gradient-to-r from-olive-50 to-transparent opacity-30 -skew-y-3"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-12">{t.home.title}</h2>
+            <h2 className="font-buongiornocryt text-9xl md:text-9xl font-light text-olive-800 mb-12">{t.home.title}</h2>
             <div className="mb-12 relative">
               <div className="absolute -inset-6 bg-gradient-to-br from-olive-100 to-olive-50 rounded-2xl transform rotate-3 opacity-50"></div>
               <Image
@@ -408,14 +408,14 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="mb-12 text-center">
             <OliveDecoration className="h-12 w-auto mx-auto text-olive-600 opacity-60 mb-6" />
-            <h2 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-4">{t.agenda.title}</h2>
+            <h2 className="font-buongiornocryt text-9xl md:text-9xl font-light text-olive-800 mb-4">{t.agenda.title}</h2>
           </div>
 
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               {/* Ceremony */}
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-100">
-                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">{t.agenda.ceremony.title}</h3>
+                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.agenda.ceremony.title}</h3>
                 <p className="text-lg text-olive-700 font-medium mb-4">{t.agenda.ceremony.time}</p>
                 <p className="text-olive-600 mb-2 font-medium">{t.agenda.ceremony.location}</p>
                 <p className="text-olive-600">{t.agenda.ceremony.address}</p>
@@ -423,7 +423,7 @@ export default function Home() {
 
               {/* Reception */}
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-100">
-                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">{t.agenda.reception.title}</h3>
+                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.agenda.reception.title}</h3>
                 <p className="text-lg text-olive-700 font-medium mb-4">{t.agenda.reception.time}</p>
                 <p className="text-olive-600 mb-2 font-medium">{t.agenda.reception.location}</p>
                 <p className="text-olive-600">{t.agenda.reception.address}</p>
@@ -431,14 +431,14 @@ export default function Home() {
 
               {/* Dinner */}
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-100">
-                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">{t.agenda.dinner.title}</h3>
+                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.agenda.dinner.title}</h3>
                 <p className="text-lg text-olive-700 font-medium mb-4">{t.agenda.dinner.time}</p>
                 <p className="text-olive-600">{t.agenda.dinner.details}</p>
               </div>
 
               {/* Party */}
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-100">
-                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">{t.agenda.party.title}</h3>
+                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.agenda.party.title}</h3>
                 <p className="text-lg text-olive-700 font-medium mb-4">{t.agenda.party.time}</p>
                 <p className="text-olive-600">{t.agenda.party.details}</p>
               </div>
@@ -453,14 +453,14 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="mb-12 text-center">
             <OliveDecoration className="h-12 w-auto mx-auto text-olive-600 opacity-60 mb-6" />
-            <h2 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-4">{t.guide.title}</h2>
+            <h2 className="font-buongiornocryt text-9xl md:text-9xl font-light text-olive-800 mb-4">{t.guide.title}</h2>
           </div>
 
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               {/* Accommodation */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
-                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">
+                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">
                   {t.guide.accommodation.title}
                 </h3>
                 <p className="text-olive-700 mb-4 leading-relaxed">{t.guide.accommodation.content}</p>
@@ -469,20 +469,20 @@ export default function Home() {
 
               {/* Transportation */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
-                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">{t.guide.transport.title}</h3>
+                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.guide.transport.title}</h3>
                 <p className="text-olive-700 mb-4 leading-relaxed">{t.guide.transport.content}</p>
                 <p className="text-olive-600 font-medium">{t.guide.transport.schedule}</p>
               </div>
 
               {/* Gifts */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
-                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">{t.guide.gifts.title}</h3>
+                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.guide.gifts.title}</h3>
                 <p className="text-olive-700 leading-relaxed">{t.guide.gifts.content}</p>
               </div>
 
               {/* Dress Code */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
-                <h3 className="font-buongiorno text-8xl font-medium text-olive-800 mb-4">{t.guide.dress.title}</h3>
+                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.guide.dress.title}</h3>
                 <p className="text-olive-700 leading-relaxed">{t.guide.dress.content}</p>
               </div>
             </div>
@@ -497,7 +497,7 @@ export default function Home() {
           <div className="mb-6">
             <OliveDecoration className="h-12 w-auto mx-auto text-white opacity-40" />
           </div>
-          <h2 className="font-buongiorno text-8xl font-light mb-4 tracking-wide">{t.hero.title}</h2>
+          <h2 className="font-buongiornocryt text-8xl font-light mb-4 tracking-wide">{t.hero.title}</h2>
           <p className="text-xl opacity-90">{t.hero.date}</p>
         </div>
       </footer>
