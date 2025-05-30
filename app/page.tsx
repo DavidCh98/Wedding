@@ -240,7 +240,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-lg z-50 border-b border-olive-100">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="font-buongiorno text-olive-700  text-4xl tracking-wide">D&Z</div>
+          <div className="font-buongiorno text-5xl text-olive-700 tracking-wide">D&Z</div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -352,7 +352,7 @@ export default function Home() {
           <div className="mb-8">
             <OliveDecoration className="h-16 w-auto mx-auto text-olive-600 opacity-70" />
           </div>
-          <h1 className="font-buongiorno text-8xl md:text-7xl font-light text-olive-800 mb-6 tracking-wide">{t.hero.title}</h1>
+          <h1 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-6 tracking-wide">{t.hero.title}</h1>
           <p className="text-2xl md:text-3xl text-olive-600 mb-12 font-light">{t.hero.date}</p>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl py-8 px-6 max-w-lg mx-auto border border-olive-100">
@@ -384,7 +384,7 @@ export default function Home() {
         <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-full h-64 bg-gradient-to-r from-olive-50 to-transparent opacity-30 -skew-y-3"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-buongiorno text-8xl md:text-5xl font-light text-olive-800 mb-12">{t.home.title}</h2>
+            <h2 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-12">{t.home.title}</h2>
             <div className="mb-12 relative">
               <div className="absolute -inset-6 bg-gradient-to-br from-olive-100 to-olive-50 rounded-2xl transform rotate-3 opacity-50"></div>
               <Image
@@ -406,7 +406,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="mb-12 text-center">
             <OliveDecoration className="h-12 w-auto mx-auto text-olive-600 opacity-60 mb-6" />
-            <h2 className="font-buongiorno text-8xl md:text-5xl font-light text-olive-800 mb-4">{t.agenda.title}</h2>
+            <h2 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-4">{t.agenda.title}</h2>
           </div>
 
           <div className="max-w-6xl mx-auto">
@@ -451,7 +451,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="mb-12 text-center">
             <OliveDecoration className="h-12 w-auto mx-auto text-olive-600 opacity-60 mb-6" />
-            <h2 className="font-buongiorno text-8xl md:text-5xl font-light text-olive-800 mb-4">{t.guide.title}</h2>
+            <h2 className="font-buongiorno text-9xl md:text-9xl font-light text-olive-800 mb-4">{t.guide.title}</h2>
           </div>
 
           <div className="max-w-6xl mx-auto">
