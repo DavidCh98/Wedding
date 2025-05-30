@@ -501,39 +501,17 @@ export default function Home() {
   )
 }
 
-// Replace the FloralElement function with this:
-function AngelsDecoration({ className = "" }) {
-  return <Image src="/angels.svg" alt="Angels decoration" width={200} height={200} className={className} />
-}
+import Image from "next/image"
 
 function OliveDecoration({ className = "" }) {
   return (
-    <svg className={className} viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M10 25C30 15 50 5 100 25C150 45 170 35 190 25"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
+    <div className={`relative w-[200px] h-[200px] ${className}`}>
+      <Image
+        src="/angels.svg"
+        alt="Angels decoration"
+        layout="fill"
+        objectFit="contain"
       />
-      <path
-        d="M40 25C45 20 55 15 60 25C65 35 55 40 50 35"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M160 25C155 20 145 15 140 25C135 35 145 40 150 35"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-      <circle cx="100" cy="25" r="5" fill="currentColor" />
-      <path
-        d="M95 15C90 20 90 30 100 35C110 30 110 20 105 15"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-    </svg>
+    </div>
   )
 }
