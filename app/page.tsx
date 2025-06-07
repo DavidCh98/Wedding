@@ -25,55 +25,55 @@ const content = {
     home: {
       title: "Our Story",
       content:
-        "We met five years ago during a summer vacation in Greece. What started as a chance encounter on a sunny beach turned into a beautiful love story. After years of adventures together, we're excited to begin our greatest adventure yet - marriage.",
-      join: "We invite you to join us in celebrating our special day.",
+        "It all started back at the end of high school, where one conversation led to another, and somehow, we never stopped talking. Since then, life has kept us on our toes. We packed our bags and moved to the Netherlands, navigating new cities, studies, and plenty of rain together. Through every twist and turn, we've only grown stronger (and slightly better at biking in traffic). Now, after years of shared adventures, we are ready for the next chapter.",
+      join: "We can't wait to celebrate with all of you!",
     },
     agenda: {
       title: "Wedding Day Agenda",
       ceremony: {
         title: "Ceremony",
-        time: "6:00 PM - 7:00 PM",
-        location: "St. Mary's Church",
-        address: "123 Church Street",
+        time: "16:00 - 17:00",
+        location: "Temple 'Sv. Vavedenie Bogorodichno'",
+        address: "bul. Sveti Patriarh Evtimiy 106, Stara Zagora",
       },
       reception: {
         title: "Reception",
-        time: "7:30 PM - Late",
-        location: "Green Garden Venue",
-        address: "456 Garden Avenue",
+        time: "17:00 - 19:00",
+        location: "Spa Hotel 'Calista'",
+        address: "6062 Starozagorski Bani",
       },
       dinner: {
         title: "Dinner",
-        time: "8:00 PM",
-        details: "A three-course meal will be served",
+        time: "19:00 - 23:00",
+        details: "Join us for delicious food and a joyful celebration",
       },
       party: {
         title: "Celebration",
-        time: "9:30 PM - Late",
-        details: "Dancing and celebration",
+        time: "Until late",
+        details: "Join us on the dance floor after dinner",
       },
     },
     guide: {
       title: "Guest Guide",
       accommodation: {
         title: "Accommodation",
-        content: "We've arranged special rates at Hotel Elegance. Please mention our wedding when booking.",
-        contact: "Phone: +1 234 567 890",
+        content: "More information will follow.",
+        contact: "Will update contact information.",
       },
       transport: {
         title: "Transportation",
-        content: "Shuttle services will be available from Hotel Elegance to the venue and back.",
-        schedule: "Departures: 5:00 PM, 5:30 PM, Returns: 11:00 PM, 12:00 AM",
+        content: "Update will follow on arranged transportation.",
+        schedule: "Useful taxi numbers or schedule will be added.",
       },
       gifts: {
         title: "Gifts",
         content:
-          "Your presence is our present. If you wish to give something, we would appreciate contributions to our honeymoon fund.",
+          "Our journey back to the Netherlands limits our ability to carry bulky items, we would greatly appreciate it if the gifts are easy to transport.",
       },
       dress: {
         title: "Dress Code",
         content:
-          "Formal attire. The celebration will take place outdoors on grass, so please consider appropriate footwear.",
+          "A touch of elegance is welcome,but above all, we want you to feel comfortable and come ready to celebrate.",
       },
     },
   },
@@ -95,55 +95,55 @@ const content = {
     home: {
       title: "Нашата История",
       content:
-        "Срещнахме се преди пет години по време на лятна ваканция в Гърция. Това, което започна като случайна среща на слънчев плаж, се превърна в красива любовна история. След години на приключения заедно, ние сме развълнувани да започнем нашето най-голямо приключение - брака.",
-      join: "Каним ви да се присъедините към нас в празнуването на нашия специален ден.",
+        "Нашата история започна в края на гимназията, един разговор доведе до друг и някак никога не спряхме да говорим. Оттогава дните ни са пълни с нови преживявания. Събрахме си багажа и се преместихме в Нидерландия, където заедно преоткрихме нови градове, знания и... много дъжд. По пътя научихме много, включително и как се кара колело в натоварен трафик и дъжд. След всичко изживяно заедно, сега с вълнение гледаме напред към нашето ново приключение.",
+      join: "Нямаме търпение да отпразнуваме с всички вас!",
     },
     agenda: {
       title: "Програма на Сватбения Ден",
       ceremony: {
         title: "Церемония",
-        time: "18:00 - 19:00",
-        location: "Църква Света Мария",
-        address: "ул. Църковна 123",
+        time: "16:00 - 17:00",
+        location: "Храм 'Св. Въведение Богородично'",
+        address: "бул. 'Свети Патриарх Евтимий' 106",
       },
       reception: {
         title: "Прием",
-        time: "19:30 - Късно",
-        location: "Зелена Градина",
-        address: "бул. Градински 456",
+        time: "17:00 - 19:00",
+        location: "Спа Хотел 'Калиста'",
+        address: "Старозагорски Бани, 6062",
       },
       dinner: {
         title: "Вечеря",
-        time: "20:00",
-        details: "Ще бъде сервирано тристепенно меню",
+        time: "19:00 - 23:00",
+        details: "Очакват ви вкусна вечеря и празнично настроение!",
       },
       party: {
         title: "Празненство",
-        time: "21:30 - Късно",
-        details: "Танци и празненство",
+        time: "До късно",
+        details: "След вечерята ви очакване на дансинга!",
       },
     },
     guide: {
       title: "Наръчник за Гости",
       accommodation: {
         title: "Настаняване",
-        content: "Организирахме специални цени в Хотел Елеганс. Моля, споменете нашата сватба при резервация.",
-        contact: "Телефон: +1 234 567 890",
+        content: "Предстои повече информация.",
+        contact: "Предстои допълнителна информация за контакти.",
       },
       transport: {
         title: "Транспорт",
-        content: "Ще има шатъл услуги от Хотел Елеганс до мястото на събитието и обратно.",
-        schedule: "Заминавания: 17:00, 17:30, Връщания: 23:00, 00:00",
+        content: "Предстои допълнителна информация.",
+        schedule: "Предстои допълнителна информация за контакти.",
       },
       gifts: {
         title: "Подаръци",
         content:
-          "Вашето присъствие е нашият подарък. Ако желаете да дадете нещо, бихме оценили принос към нашия фонд за меден месец.",
+          "Пътуването ни обратно до Нидерландия ограничава възможността ни да пренасяме обемисти вещи, затова бихме се радвали, ако подаръците бъдат лесни за пренасяне.",
       },
       dress: {
         title: "Дрескод",
         content:
-          "Официално облекло. Празненството ще се проведе на открито на трева, така че моля, съобразете подходящи обувки.",
+          "Щипка елегантност е добре дошла, но най-важното е да се чувствате удобно и готови за празник.",
       },
     },
   },
