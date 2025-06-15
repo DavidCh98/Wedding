@@ -390,7 +390,7 @@ export default function Home() {
             <div className="mb-12 relative">
               <div className="absolute -inset-6 bg-gradient-to-br from-olive-100 to-olive-50 rounded-2xl transform rotate-3 opacity-50"></div>
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/Deyvid + Zori.png"
                 alt="Couple"
                 width={600}
                 height={400}
