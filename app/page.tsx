@@ -390,8 +390,8 @@ export default function Home() {
             <div className="mb-12 relative">
               <div className="absolute -inset-6 bg-gradient-to-br from-olive-100 to-olive-50 rounded-2xl transform rotate-3 opacity-50"></div>
               <Image
-                src="/Deyvid + Zori.png"
-                alt="Couple"
+                src="/Deyvid_Zori.png"
+                alt="Couple image"
                 width={600}
                 height={400}
                 className="rounded-2xl shadow-2xl mx-auto relative"
