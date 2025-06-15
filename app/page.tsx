@@ -460,7 +460,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               {/* Accommodation */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
-                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">
+                <h3 className="font-buongiornocryt text-6xl lg:text-8xl font-medium text-olive-800 mb-4">
                   {t.guide.accommodation.title}
                 </h3>
                 <p className="text-olive-700 mb-4 leading-relaxed">{t.guide.accommodation.content}</p>
@@ -469,20 +469,20 @@ export default function Home() {
 
               {/* Transportation */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
-                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.guide.transport.title}</h3>
+                <h3 className="font-buongiornocryt text-6xl lg:text-8xl font-medium text-olive-800 mb-4">{t.guide.transport.title}</h3>
                 <p className="text-olive-700 mb-4 leading-relaxed">{t.guide.transport.content}</p>
                 <p className="text-olive-600 font-medium">{t.guide.transport.schedule}</p>
               </div>
 
               {/* Gifts */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
-                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.guide.gifts.title}</h3>
+                <h3 className="font-buongiornocryt text-6xl lg:text-8xl font-medium text-olive-800 mb-4">{t.guide.gifts.title}</h3>
                 <p className="text-olive-700 leading-relaxed">{t.guide.gifts.content}</p>
               </div>
 
               {/* Dress Code */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
-                <h3 className="font-buongiornocryt text-8xl font-medium text-olive-800 mb-4">{t.guide.dress.title}</h3>
+                <h3 className="font-buongiornocryt text-6xl lg:text-8xl font-medium text-olive-800 mb-4">{t.guide.dress.title}</h3>
                 <p className="text-olive-700 leading-relaxed">{t.guide.dress.content}</p>
               </div>
             </div>
