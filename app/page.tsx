@@ -132,7 +132,7 @@ const content = {
       },
       transport: {
         title: "Транспорт",
-        content: "Предстои допълнителна информация.",
+        content: "Чар Такси: +359 88 899 6123 </br> Такси 6106: +359 88 866 6106",
         schedule: "Предстои допълнителна информация за контакт.",
       },
       gifts: {
@@ -507,13 +507,13 @@ export default function Home() {
 
 // Define both decoration components
 function AngelsDecoration({ className = "" }) {
-  return <Image src="/angels.svg" alt="Angels decoration" width={200} height={200} className={className} />
+  return <Image src="/angels.png" alt="Angels decoration" width={200} height={200} className={className} />
 }
 
 function OliveDecoration({ className = "" }) {
   return (
     <div className={`relative w-[200px] h-[200px] ${className}`}>
-      <Image src="/angels.svg" alt="Angels decoration" fill style={{ objectFit: "contain" }} />
+      <Image src="/angels.png" alt="Angels decoration" fill style={{ objectFit: "contain" }} />
     </div>
   )
 }
