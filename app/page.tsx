@@ -513,7 +513,7 @@ function AngelsDecoration({ className = "" }) {
 function OliveDecoration({ className = "" }) {
   return (
     <div className={`relative w-[200px] h-[200px] ${className}`}>
-      <Image src="/angels.png" alt="Angels decoration" fill style={{ objectFit: "contain" }} />
+      <Image src="/angels.svg" alt="Angels decoration" fill style={{ objectFit: "contain" }} />
     </div>
   )
 }
