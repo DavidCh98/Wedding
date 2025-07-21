@@ -57,13 +57,15 @@ const content = {
       title: "Guest Guide",
       accommodation: {
         title: "Accommodation",
-        content: "More information will follow.",
-        contact: "Will update contact information.",
+        content1: "Hotel Armira: +359 899 171 617, +359 4111 2223",
+        content2: "Park Hotel Stara Zagora: 042 98 55 55",
+        content3: "Hotel Vereya: +359 042 919 373; +359 042 919 373",
+        content4: "If you need more information or assistance, please contact us!",
       },
       transport: {
         title: "Transportation",
-        content: "Update will follow on arranged transportation.",
-        schedule: "Useful taxi numbers or schedule will be added.",
+        content1: "Char Taxi: +359 88 899 6123",
+        content2: "Taxi 6106: +359 88 866 6106",
       },
       gifts: {
         title: "Gifts",
@@ -127,13 +129,15 @@ const content = {
       title: "Наръчник за Гости",
       accommodation: {
         title: "Настаняване",
-        content: "Предстои повече информация.",
-        contact: "Предстои допълнителна информация за контакт.",
+        content1: "Хотел Армира: +359 899 171 617, +359 4111 2223",
+        content2: "Парк Хотел Стара Загора: 042 98 55 55",
+        content3: "Хотел Верея: +359 042 919 373; +359 042 919 373",
+        content4: "При нужда от повече информация или помощ, свържете се с нас!",
       },
       transport: {
         title: "Транспорт",
-        content: ["Чар Такси: +359 88 899 6123/nТакси 6106: +359 88 866 6106"],
-        schedule: "",
+        content1: "Чар Такси: +359 88 899 6123",
+        content2: "Такси 6106: +359 88 866 6106",
       },
       gifts: {
         title: "Подаръци",
@@ -246,31 +250,28 @@ export default function Home() {
           <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("home")}
-              className={`text-sm uppercase tracking-wider font-medium transition-all duration-300 ${
-                activeSection === "home"
-                  ? "text-olive-700 border-b-2 border-olive-500 pb-1"
-                  : "text-olive-600 hover:text-olive-700 hover:scale-105"
-              }`}
+              className={`text-sm uppercase tracking-wider font-medium transition-all duration-300 ${activeSection === "home"
+                ? "text-olive-700 border-b-2 border-olive-500 pb-1"
+                : "text-olive-600 hover:text-olive-700 hover:scale-105"
+                }`}
             >
               {t.nav.home}
             </button>
             <button
               onClick={() => scrollToSection("agenda")}
-              className={`text-sm uppercase tracking-wider font-medium transition-all duration-300 ${
-                activeSection === "agenda"
-                  ? "text-olive-700 border-b-2 border-olive-500 pb-1"
-                  : "text-olive-600 hover:text-olive-700 hover:scale-105"
-              }`}
+              className={`text-sm uppercase tracking-wider font-medium transition-all duration-300 ${activeSection === "agenda"
+                ? "text-olive-700 border-b-2 border-olive-500 pb-1"
+                : "text-olive-600 hover:text-olive-700 hover:scale-105"
+                }`}
             >
               {t.nav.agenda}
             </button>
             <button
               onClick={() => scrollToSection("guide")}
-              className={`text-sm uppercase tracking-wider font-medium transition-all duration-300 ${
-                activeSection === "guide"
-                  ? "text-olive-700 border-b-2 border-olive-500 pb-1"
-                  : "text-olive-600 hover:text-olive-700 hover:scale-105"
-              }`}
+              className={`text-sm uppercase tracking-wider font-medium transition-all duration-300 ${activeSection === "guide"
+                ? "text-olive-700 border-b-2 border-olive-500 pb-1"
+                : "text-olive-600 hover:text-olive-700 hover:scale-105"
+                }`}
             >
               {t.nav.guide}
             </button>
@@ -301,25 +302,22 @@ export default function Home() {
             <div className="flex flex-col space-y-4">
               <button
                 onClick={() => scrollToSection("home")}
-                className={`text-sm uppercase tracking-wider font-medium transition-colors duration-300 ${
-                  activeSection === "home" ? "text-olive-700 " : "text-olive-600"
-                }`}
+                className={`text-sm uppercase tracking-wider font-medium transition-colors duration-300 ${activeSection === "home" ? "text-olive-700 " : "text-olive-600"
+                  }`}
               >
                 {t.nav.home}
               </button>
               <button
                 onClick={() => scrollToSection("agenda")}
-                className={`text-sm uppercase tracking-wider font-medium transition-colors duration-300 ${
-                  activeSection === "agenda" ? "text-olive-700 " : "text-olive-600"
-                }`}
+                className={`text-sm uppercase tracking-wider font-medium transition-colors duration-300 ${activeSection === "agenda" ? "text-olive-700 " : "text-olive-600"
+                  }`}
               >
                 {t.nav.agenda}
               </button>
               <button
                 onClick={() => scrollToSection("guide")}
-                className={`text-sm uppercase tracking-wider font-medium transition-colors duration-300 ${
-                  activeSection === "guide" ? "text-olive-700 " : "text-olive-600"
-                }`}
+                className={`text-sm uppercase tracking-wider font-medium transition-colors duration-300 ${activeSection === "guide" ? "text-olive-700 " : "text-olive-600"
+                  }`}
               >
                 {t.nav.guide}
               </button>
@@ -463,15 +461,17 @@ export default function Home() {
                 <h3 className="font-buongiornocryt text-6xl lg:text-8xl font-medium text-olive-800 mb-4">
                   {t.guide.accommodation.title}
                 </h3>
-                <p className="text-olive-700 mb-4 leading-relaxed">{t.guide.accommodation.content}</p>
-                <p className="text-olive-600 font-medium">{t.guide.accommodation.contact}</p>
+                <p className="text-olive-600 font-medium">{t.guide.accommodation.content1}</p>
+                <p className="text-olive-600 font-medium">{t.guide.accommodation.content2}</p>
+                <p className="text-olive-600 font-medium">{t.guide.accommodation.content3}</p>
+                <p className="text-olive-600 font-medium">{t.guide.accommodation.content4}</p>
               </div>
 
               {/* Transportation */}
               <div className="bg-gradient-to-br from-olive-50 to-olive-100 rounded-2xl shadow-xl p-8 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-olive-200">
                 <h3 className="font-buongiornocryt text-6xl lg:text-8xl font-medium text-olive-800 mb-4">{t.guide.transport.title}</h3>
-                <p className="text-olive-700 mb-4 leading-relaxed">{t.guide.transport.content}</p>
-                <p className="text-olive-600 font-medium">{t.guide.transport.schedule}</p>
+                <p className="text-olive-600 font-medium">{t.guide.transport.content1}</p>
+                <p className="text-olive-600 font-medium">{t.guide.transport.content2}</p>
               </div>
 
               {/* Gifts */}
